@@ -1,0 +1,101 @@
+@font-face{
+    src: url(../font/DK\ Crayon\ Crumble.ttf);
+    font-family: "crumble";
+}
+body{
+    font-family: "crumble";
+    background-image: url("../images/background.jpg");
+    color: white;
+
+}
+.container{
+    background-image: url("../images/chalkboard.jpg");
+    margin-top: 15px;
+    height: 734px;
+    width: 1024px;
+}
+#title{
+    
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-left: 45px;
+    padding-top: 7.7px;
+}
+#counter{
+    
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-right: 45px;
+    padding-top: 7.7px;
+}
+#question{
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    display: none;
+
+}
+#guess1{
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#guess2{
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#guess3{
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#guess4{
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img{
+    display: inline-block;
+}
+#line{
+    
+    width: 200px;
+    height: 10px;
+}
+.guess{
+    line-height: 5px;
+    margin-bottom: 40px;
+    display: none;
+}
+.messagesc{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.start{
+    text-align: center;
+    height: 70px;
+}
+
+#lineb{
+    display: block;
+    width: 300px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 0;
+}
