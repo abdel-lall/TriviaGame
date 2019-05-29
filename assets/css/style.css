@@ -37,49 +37,33 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 40px;
-    display: none;
 
 }
-#guess1{
+#guess1,#guess4,#guess2,#guess3{
     margin-left: 45px;
     margin-right: 45px;
     font-size: 40px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 20px;
 }
-#guess2{
-    margin-left: 45px;
-    margin-right: 45px;
-    font-size: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#guess3{
-    margin-left: 45px;
-    margin-right: 45px;
-    font-size: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#guess4{
-    margin-left: 45px;
-    margin-right: 45px;
-    font-size: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 img{
     display: inline-block;
 }
 #line{
-    
-    width: 200px;
+   
+    display: block;
+    width: 120px;
     height: 10px;
+    padding: 0;
+    margin:0;
+    margin-top: 0;
 }
 .guess{
     line-height: 5px;
     margin-bottom: 40px;
-    display: none;
+    /* display: none; */
 }
 .messagesc{
     font-size: 60px;
@@ -98,4 +82,27 @@ img{
     height: 10px;
     margin: 0 auto;
     margin-top: 0;
+}
+
+#answer{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    
+}
+#gs{
+    line-height: 40px;
+    margin-bottom: 0;
+    
+}
+#finalres{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+    
+}
+#resbtn{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
 }
